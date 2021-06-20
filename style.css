@@ -1,0 +1,196 @@
+
+        
+/*colors:
+purple #9b59b6 
+silver:  #ecf0f1*/
+
+/* -----------------------------------------------*/
+/*BASIC SETUP*/
+/* -----------------------------------------------*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #030303;
+    color: #9f9191;
+    font-family: 'Lato', 'Ariel', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;  
+    
+}
+
+/* -----------------------------------------------*/
+/*REUSEABLE  COMPONENTS*/
+/* -----------------------------------------------*/
+
+
+.row{
+    
+    max-width: 1140px;
+   
+/*/margin: top right bottom left, 
+    or a shorter way to do this*/
+/*    margin: 0 auto o auto;*/
+    margin: 0 auto;
+/*    in the above: top/bottom = 0, left/right = auto*/
+    
+}
+
+/*--------HEADINGS--------*/
+
+h1{
+ font-weight: 100;
+    margin: 0;
+    color: #fff;
+    font-size: 270%;
+    font-weight: 200;
+    text-transform: uppercase;
+    word-spacing: 2px;
+}
+
+
+/*--------BUTTONS--------*/
+
+   /* 
+:link is a pseudo class that indicates when the button style is at rest, while 
+
+:visited is a pseudo that indicates buttons that have been clicked on
+*/ 
+
+.btn:link, 
+.btn:visited
+{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    border: 3px solid rgba(230, 126, 34, 0.06)/*#8e44ad #3498db*/ ; 
+    border-radius: 20px;
+    text-decoration: none;
+    color: #ecf0f1 ;
+    transition: background-color 0.2s, border 0.3s, color 0.4s;
+}
+
+.btn-full:link,
+.btn-full:visited
+{
+        background:#9b59b6  ;
+    
+        
+}
+.btn-ghost:link,
+.btn-ghost:visited
+{
+    border: 1px solid #9b59b6; 
+    color : #9b59b6;
+}
+
+/* :hover psuedo indicates when mouse hovers around or over the btn elemment
+
+while 
+
+:active indicates when a btn is just clicked on
+*/
+
+.btn:hover,
+.btn:active{
+    padding: 20px 20px;
+    background-color: rgba(142, 68, 173, 0.53);
+    color: #fff;
+    border: 1px solid #2980b9;
+    transition: background-color 0.8s, border 0.8s, color 0.4s;
+
+}
+
+
+.btn-full:hover,
+.btn-full:active
+{
+    
+     border: 1px solid #9b59b6; 
+   
+}
+.btn-ghost:hover,
+.btn-ghost:active
+{
+    border: 1px solid #9b59b6; 
+    color : #9b59b6;
+    background-color: rgba(236, 240, 241, 0.72) ;
+    
+}
+
+
+/* -----------------------------------------------*/
+/*HEADER SECTION*/
+/* -----------------------------------------------*/
+
+header{
+    background-image: linear-gradient(rgba(3, 4, 16, 0.95), rgba(14, 14, 15, 0.83)),url(webDev/Hero.jpeg.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+div.div, div{
+    margin: 0;
+}
+
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+}
+
+.logo{
+    height: 150px;
+    width: auto;
+    float: left;
+    
+}
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 60px;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 23px;
+
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 80%;
+    border-bottom: 2px solid rgba(155, 89, 182, 0.06);
+    padding: 3px 0px;
+
+    
+}
+
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid #9b59b6;
+    transition: border-bottom .5s;
+
+    
+}
