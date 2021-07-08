@@ -1,5 +1,4 @@
 
-        
 /*colors:
 purple #9b59b6 
 silver:  #ecf0f1*/
@@ -15,9 +14,10 @@ silver:  #ecf0f1*/
     box-sizing: border-box;
 }
 
+
 html{
-    background-color: #030303;
-    color: #9f9191;
+    background-color: #fffefe;
+    color: #ecf0f1;
     font-family: 'Lato', 'Ariel', sans-serif;
     font-size: 20px;
     font-weight: 300;
@@ -38,21 +38,140 @@ html{
     or a shorter way to do this*/
 /*    margin: 0 auto o auto;*/
     margin: 0 auto;
+    
 /*    in the above: top/bottom = 0, left/right = auto*/
     
 }
 
+.box{
+    padding: 1%;
+    
+}
+
+
+section {
+    color: #000;
+    padding: 80px 0;
+    
+
+   
+}
+
 /*--------HEADINGS--------*/
+h1,.hero-text-box h2{
+    padding: 0 10px -3% 23%;
+    margin: auto;
+    
+}
+
+/*
+.hero-text-box a{
+    padding:;
+    margin: 0px;
+    
+}
+*/
+h1,
+h2,
+h3,
+h4{
+   
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
 
 h1{
- font-weight: 100;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
     color: #fff;
     font-size: 270%;
-    font-weight: 200;
-    text-transform: uppercase;
-    word-spacing: 2px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    margin: auto;
+
+    
+    
 }
+h2{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 170%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    margin: auto;
+}
+
+
+h3 {
+    margin-top: 2px;
+    margin: auto;
+    width: 65%;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+
+
+h3:after {
+    display: block;
+    margin: 0 auto;
+    height: 2px;
+    width: 100px;
+    content:  " ";
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #9b59b6;
+}
+h4{
+    font-size: 105;
+    padding: 10px 0;
+    letter-spacing: -1px;
+
+    
+}
+.box p{
+    font-size: 90%;
+    line-height: 145%;
+    
+}
+
+/*--------PARAGRAPGHS--------**/
+
+.long-copy {
+    width: 70%;
+    display: block;
+    margin-left: 15%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    line-height: 145%
+    
+}
+
+
+
+
+/*-------SECTION FEATURES------*/
+
+
+.section-features .long-copy{
+    margin-bottom: 40px;
+}
+
+/*-------ICONS------*/
+
+.icon{
+    font-size: 320%;
+    color: #9b59b6;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+
+
+
 
 
 /*--------BUTTONS--------*/
@@ -61,7 +180,7 @@ h1{
 :link is a pseudo class that indicates when the button style is at rest, while 
 
 :visited is a pseudo that indicates buttons that have been clicked on
-*/ 
+ */
 
 .btn:link, 
 .btn:visited
@@ -74,12 +193,16 @@ h1{
     text-decoration: none;
     color: #ecf0f1 ;
     transition: background-color 0.2s, border 0.3s, color 0.4s;
+    margin: 10px;
+    margin-left: 30px;
 }
 
 .btn-full:link,
 .btn-full:visited
 {
-        background:#9b59b6  ;
+        background:#9b59b6;
+        margin-left: 0px;
+
     
         
 }
@@ -175,7 +298,7 @@ div.div, div{
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
-    font-size: 80%;
+    font-size: 65%;
     border-bottom: 2px solid rgba(155, 89, 182, 0.06);
     padding: 3px 0px;
 
@@ -194,3 +317,72 @@ div.div, div{
 
     
 }
+
+
+
+
+/* -----------------------------------------------*/
+/* SECTION GALLERY*/
+/* -----------------------------------------------*/
+
+
+.watch-gallery{
+    width: 100%;
+    list-style: none;
+    
+}
+
+
+
+
+
+.watch-gallery li{
+    display: block;
+    float: left;
+    width: 12.5%;
+    
+}
+
+
+.watch{
+    width:100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #190122;
+
+}
+
+
+.watch img{
+     width: 100%;
+    float: left;
+    height: auto;
+    display: block;
+    transform: scale(1.2);
+    transition: transfor 0.9s, opacity 0.5s;
+    opacity: 0.7;
+    
+    
+    
+}
+
+
+ .watch img:hover{
+     transform: scale(1.04);
+     opacity: 1;
+     
+    
+}
+
+
+
+.gallery {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.step-text {
+    margin-top: 20px;
+}
+
+
