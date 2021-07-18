@@ -25,6 +25,16 @@ html{
     
 }
 
+
+.clearfix{zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 /* -----------------------------------------------*/
 /*REUSEABLE  COMPONENTS*/
 /* -----------------------------------------------*/
@@ -76,7 +86,7 @@ h2,
 h3,
 h4{
    
-    font-weight: 300;
+    font-weight: 200;
     text-transform: uppercase;
     margin-top: 10px;
 }
@@ -105,14 +115,13 @@ h2{
 
 
 h3 {
-    margin-top: 2px;
+    margin-top: 20px;
     margin: auto;
     width: 65%;
     text-align: center;
     margin-bottom: 30px;
     
 }
-
 
 h3:after {
     display: block;
@@ -159,7 +168,7 @@ h4{
     margin-bottom: 40px;
 }
 
-/*-------ICONS------*/
+/*-------------ICONS---------------*/
 
 .icon{
     font-size: 320%;
@@ -167,6 +176,21 @@ h4{
     display: block;
     margin-bottom: 10px;
 }
+
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    font-size: 150%;
+    color: #9b59b6;
+    margin-right: 10px; 
+    
+    /* secrets to align text and icons*/
+    margin-top: -2px;
+    line-height: 150%;
+    vertical-align: middle;
+}
+
 
 
 
@@ -246,6 +270,41 @@ while
     background-color: rgba(236, 240, 241, 0.72) ;
     
 }
+.btn-app img{
+    width: auto;
+    margin-right: 10px;
+    height: 50px;
+    
+}
+.btn-app{
+    margin-left: 5%;
+}
+.btn-app:link,
+.btn-app:visited{
+    border: 0;
+}
+
+
+/*--------------------------------------------*/
+/*------------------LINKS-----------------*/
+/*--------------------------------------------*/
+a:link,
+a:visited{
+    text-decoration: none;
+    border-bottom: 2px solid #9b59b6;
+    padding: 0 0 2px 0;
+    color: #9b59b6;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active{
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    color: #7c7b7b;
+    
+}
+
 
 
 /* -----------------------------------------------*/
@@ -321,9 +380,9 @@ div.div, div{
 
 
 
-/* -----------------------------------------------*/
+/* ------------------------------------------*/
 /* SECTION GALLERY*/
-/* -----------------------------------------------*/
+/* ------------------------------------------*/
 
 
 .watch-gallery{
@@ -378,11 +437,94 @@ div.div, div{
 
 .gallery {
     margin-top: 0;
-    margin-bottom: 30px;
+    padding: 0;
 }
 
 .step-text {
     margin-top: 20px;
+}
+
+/*--------------------------------------------*/
+/*------------HOW IT WORKS-----------------*/
+/*--------------------------------------------*/
+
+.steps-box{
+    background-color: rgba(252, 252, 252, 0.77);
+}
+
+.steps-box:first-child{
+    text-align: right;
+    padding-right: 3%;
+    
+}
+.steps-box:last-child{
+    padding-left: 3%;
+    margin-top: 65px;
+
+    
+}
+.steps-box:last-of-type{
+margin-bottom: 50px;    
+}
+
+.iphone{
+    width: 40%;
+}
+
+.work-step{
+    margin-bottom: 50px;
+}
+
+.work-step div{
+    color: #9b59b6;
+    display: inline-block;
+    border: 2px solid #9b59b6;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    font-size: 150%;
+    padding: 8px;
+    float: left;
+    margin-right: 25px;
+    
+}
+
+
+
+/*--------------------------------------------*/
+/*-------------------CITIES-----------------*/
+/*--------------------------------------------*/
+
+
+
+.section-cities div{
+    font-size: 90%;
+    background-color: rgba(213, 171, 230, 0.08)
+    
+}
+
+
+
+
+
+
+
+.section-cities img{
+   
+    width: 200px;
+    height: 150px;
+    padding: 0 10px;
+    background-color: rgba(155, 89, 182, 0.99);
+    margin: 0 10px 15px;
+    border-radius: 5px;
+    
+    
+}
+
+.city-feature {
+    margin-bottom: 5px;
+    
 }
 
 
