@@ -149,7 +149,11 @@ h4,
 .section-testimonials h3,
 .section-plans h3{
     font-weight: bolder;
+<<<<<<< HEAD
 /*    color: #000;*/
+=======
+    color: #000;
+>>>>>>> 1b6e24d6a6f2d38176035ee8509dc1dbd0c61976
         
 }
 
@@ -516,6 +520,10 @@ margin-bottom: 50px;
     font-size: 90%;
     background-color: rgba(213, 171, 230, 0.08);
     font-weight: 150%;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 1b6e24d6a6f2d38176035ee8509dc1dbd0c61976
 }
 
 
@@ -538,6 +546,10 @@ margin-bottom: 50px;
 
 .city-feature {
     margin-bottom: 5px;
+<<<<<<< HEAD
+=======
+    
+>>>>>>> 1b6e24d6a6f2d38176035ee8509dc1dbd0c61976
 }
 
 
