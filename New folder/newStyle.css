@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #030303;
+    color: #9f9191;
+    font-family: 'Lato', 'Ariel', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    
+    
+}
+
+.row{
+    
+    max-width: 1140px;
+   
+/*/margin: top right bottom left, 
+    or a shorter way to do this*/
+/*    margin: 0 auto o auto;*/
+    margin: 0 auto;
+/*    in the above: top/bottom = 0, left/right = auto*/
+    
+}
+
+header{
+    background-image: linear-gradient(rgba(3, 4, 16, 0.71), rgba(14, 14, 15, 0.81)),url(webDev/Hero.jpeg.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/*
+div{
+    margin:  -1.4em;
+    margin-block-start:0;
+    margin-block-end: 0;
+}
+*/
+div.div, div{
+    margin: 0;
+}
+
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+}
+    
+
+
+
+
+
+
+
+
