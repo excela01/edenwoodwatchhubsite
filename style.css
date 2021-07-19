@@ -107,7 +107,7 @@ h2{
     margin-top: 0;
     margin-bottom: 20px;
     color: #fff;
-    font-size: 170%;
+    font-size: 300%;
     word-spacing: 4px;
     letter-spacing: 1px;
     margin: auto;
@@ -140,6 +140,19 @@ h4{
 
     
 }
+
+h1,
+h2,
+h3,
+h4,
+.section-cities h3,
+.section-testimonials h3,
+.section-plans h3{
+    font-weight: bolder;
+    color: #000;
+        
+}
+
 .box p{
     font-size: 90%;
     line-height: 145%;
@@ -279,6 +292,7 @@ while
 .btn-app{
     margin-left: 5%;
 }
+
 .btn-app:link,
 .btn-app:visited{
     border: 0;
@@ -500,7 +514,8 @@ margin-bottom: 50px;
 
 .section-cities div{
     font-size: 90%;
-    background-color: rgba(213, 171, 230, 0.08)
+    background-color: rgba(213, 171, 230, 0.08);
+    font-weight: bolder;
     
 }
 
