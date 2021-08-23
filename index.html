@@ -2,8 +2,10 @@
 <html>
 <head lang="en">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Exc3l">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="queries.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/css/col.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
@@ -21,6 +23,7 @@
         <nav>
             <div class="row">
                 <img src="webDev/EDENHUBwhite.png" class="logo" alt="eden hub's logo">
+                <img src="webDev/EDENHUBblack.png" class="logo-black" alt="eden hub's logo">
                 <ul class="main-nav">
                     <li><a href="#"> Watch Delivery</a></li>
                     <li><a href="#"> How it Works</a></li>
@@ -38,8 +41,10 @@
             <a class=" btn btn-ghost" href="#">More Info</a>
         </div>
     </header>
+    
+    
 
-    <section class="section-features">
+    <section class="section-features js--section-features">
         <div class="row">
             <h3>Handcrafted Quality &mdash; Great Eden Design</h3>
             <p class="long-copy" >
@@ -65,7 +70,7 @@
                 <i class="ion-thumbsup icon"></i>
                 <h4>Ethical Manufacturing</h4>
                 <p>
-                    Our ethical factories create your product in fair, safe working conditions (we promise).
+                    Our factories create your product in fair, safe working conditions (we promise).
                 </p>
             </div>
             <div class="col span_1_of_4 box">
@@ -84,7 +89,7 @@
     
     <section class="gallery">
         <div class="gallery-header">
-            <h3> Eden Hub Watch Gallery</h3>
+            <h3> Eden Wood Watch Hub Gallery</h3>
         
         </div>
         <ul class="watch-gallery clearfix">
@@ -347,7 +352,8 @@
         <div class="row">
             <div class="col span_1_of_4 testimonial">
                 <blockquote>
-                    <p>watch is just light and unique, something you want to get for a family member or a close friend.</p>
+                    <p class="para">
+                        watch is just light and unique, something you want to get for a family member or a close friend.</p>
                     <cite>
                         <img src="vendors/img/testimonials/1626042565797.jpg" alt="testimonial by SHEmedia">
                        
@@ -361,7 +367,7 @@
             <div class="col span_1_of_4 testimonial">
                 <blockquote>
                     
-                    <p>
+                    <p class="para">
                         Wow! Thanks, really cool stuff
                     </p>
                     <cite>
@@ -376,7 +382,7 @@
             </div>
             <div class="col span_1_of_4 testimonial">
                 <blockquote>
-                    <P>
+                    <P class="para">
                         Thanks for the watch. my wrists are ablaze..Super Sleek
                     </P>
                     <cite>
@@ -393,8 +399,8 @@
             </div>
             <div class="col span_1_of_4 testimonial">
                 <blockquote>
-                    <p>
-                        Love it, definitely will buy more
+                    <p class="para">
+                        Love it, everyone's been asking about my watch plug.
                     </p>
                     <cite>
                         <img src="vendors/img/testimonials/i_am_aphal_20210331_144102_0.jpg" alt="testimonial by alphal">
@@ -503,7 +509,7 @@
                     </div>  
                     <div class="row">
                         <div class="col span_1_of_3">
-                            <label>Make a special request, please</label>
+                            <label class="label">Make a special request, please</label>
                         </div>
                         <div class="col span_2_of_3">
                             <textarea name="message" placeholder="your message please"></textarea>
@@ -522,10 +528,40 @@
                     </div>  
             </form>
         </div>
-    </section>
-                
+    </section> 
+    <footer class="section-footer">
+        <div class="row">
+            <div class="col span_1_of_2">
+                <ul class="footer-nav">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Android App</a></li>
+                    <li><a href="#">iOS App</a></li>
+                </ul>
+            </div>
+            <div class="col span_1_of_2">
+                <ul class="social-links">
+                    <li><a href="#" type="icon"><i class="ion-social-facebook"></i></a></li>
+                    <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                    
+                </ul>
+            </div>
+            <div class="row">
+                <p>
+                   Copyright &copy; 2021 edenwoodwatchhub designed by Excel. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer> 
     
-    
-    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+<script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+<script src="vendors/js/jquery.waypoints.min.js"></script>
+<script src="Resources/js/script.js"></script>
+
 </body>
 </html>

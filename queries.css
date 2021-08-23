@@ -1,0 +1,477 @@
+
+/* big tablets to 1200px (widths smaller than the 1140px row) */
+@media only screen and (max-width: 1200px) { 
+    .logo{
+        height: 100px;
+        width: auto;
+    }
+    .hero-text-box{
+        margin-top: 15px;
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row{ padding: 0 2%; }
+       
+
+
+
+    
+}
+
+
+/* small tablets to bigg tablets : 768px to 1023px */
+@media only screen and (max-width: 1023px) { 
+        
+    
+    body{ font-size: 18px; }
+    section{ padding: 60px 0; }
+        
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;    
+    }
+        
+    .steps-box{ margin-top: 10px; }
+
+    .steps-box:last-of-type{ 
+        margin-bottom: 20px;
+        margin-top: 15px; 
+
+    }
+        
+    .iphone{ width: 50%; }
+        
+    .btn-app img{
+        width: auto;
+        margin-right: 5px;
+        height: 40px;
+        
+    }
+    
+        
+    .icon-small {
+        width: 16px;
+        font-size: 120%;
+        margin-right: 5px; 
+    }
+    
+    .section-cities div{
+        font-size: 85%;
+        font-weight: 120%;
+    }
+
+    .section-cities img{
+       
+        width: 300px;
+        height: 250px;
+        padding: 0 5px;
+        margin-top: 20px;
+        margin: 0 5px 5px;
+        border-radius: 5px;
+        
+        
+    }
+    .plans-box{
+        width: 45%;
+    }
+    cite:before{
+        margin-bottom: 5px;
+    }
+    
+
+        
+    cite{
+        font-size: 80%;
+        font-weight: 125%;
+        margin-top: 70px;
+        display: block;
+        
+    }
+
+    cite img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        vertical-align: middle;
+        display: block;
+        
+    }
+
+        
+    blockquote .para{
+        margin-bottom: 5px;
+        height: 65px;
+        display: block;
+        margin-top: 10px;
+        margin-right: 10px;
+        font-size: 70%;
+    
+    }
+    
+    blockquote::before{
+        font-size: 400%;
+    }
+
+    .plan-price{
+        font-size: 220%;
+        font-weight: bolder;
+    }
+
+    .plan-price span{ 
+        font-size: 55%; 
+        font-weight: 400;
+    }
+
+    footer{
+        font-size: 70%;
+    }
+
+    .contact-form{
+        width: 80%;
+    }
+
+        
+}
+
+
+
+
+/* Small Phones to small tablets: 481px to 767 px */
+@media only screen and (max-width: 767px) { 
+    body{ font-size: 15.5px;}
+    section{ padding: 30px 0; }
+
+    .row,
+    .hero-text-box {padding: 0 4%;}
+
+    .col.col { 
+        width: 100%;
+        text-align: center;
+        vertical-align: middle ;
+        margin: 0 0 4% 0;
+    }
+
+    .main-nav{ display: none; }
+
+        
+    h1,
+    h2,
+    h3,
+    h4{
+    
+        font-weight: 200;
+        text-transform: uppercase;
+        margin-top: 10px;
+    }
+
+    h1{
+        margin-bottom: 10px;
+        font-size: 200%;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        width: 100%;
+
+    }
+
+    h2,
+    h3{
+         
+        margin: 10px auto;
+        font-size: 85%;
+        word-spacing: 3px;
+        letter-spacing: 1px;
+        line-break: normal;
+        width: 70%;
+    }
+
+
+
+    h1,
+    h2,
+    h3,
+    h4{
+        font-weight: bolder;
+        word-spacing: 3px;
+    }
+
+    .work-step p{ 
+        padding-top: 5px;
+        text-align: left;
+        margin-bottom: 0px;
+     }
+
+    .work-step div{ 
+        font-size: 90%;
+        padding: 3px;
+        width: 40px;
+        height: 40px;
+        padding-top: 10px;
+        
+     }
+
+     .iphone{height: 550px;}
+
+        
+        
+    blockquote{
+        padding: 2%;
+        height: 230px;
+        width: 60%;
+        margin-top: 20px;
+        margin: auto;
+    }
+    blockquote .para{
+        /* margin-bottom: 10px; */
+        height: auto;
+        display: block;
+        margin-top: 10px;
+        font-size: 85%;
+        padding: 3%;
+
+    
+    }
+        
+    cite:before{
+        content: " ";
+        width: 30%;
+        color: rgb(182, 69, 216);
+        padding: 1px;
+        background-color: #ecf0f1;
+        display: block;
+        margin: 20px auto ;
+        
+        
+    }
+
+    cite{
+        font-size: 90%;
+        font-weight: 125%;
+        margin-top: 15px;
+        display: block;
+    }
+    
+    cite img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        vertical-align: middle;
+        display: inline-block;
+        
+    }
+        
+    .plans-box{
+        width: 60%;
+        padding: 10px;
+     
+    }
+    .plans-box div ul li{
+        text-align: start;
+    }
+
+    .contact-form{
+        width: 90%;
+        padding-top: 20px;
+        text-align: start;
+    }
+    
+    .contact-form label{
+        text-align: left;
+    }
+
+ 
+    .section-form .span_1_of_3{
+        width: 92.26%;
+        text-align: left;
+        margin: 10px 0 5px 0;
+        /* padding: 5px 0; */
+        font-size: 90%;
+      
+    } 
+
+    .section-form .span_2_of_3{
+       text-align: left;
+    } 
+
+    footer{
+        padding: 20px;
+        font-size: 80%;
+    }
+    
+    .footer-nav{
+        float: left;
+    }
+    
+    .social-links {
+        float: right;
+    }
+    
+    .social-links li:last-child,
+    .footer-nav li:last-child{
+        margin: 0;
+    }
+    
+    .footer-nav li,
+    .social-links li{
+        display: inline-block;
+        margin-right: 10px;
+        list-style: none;
+        /* text-align: center; */
+    }
+}
+
+
+
+/* Small Phones: 0 to 480px */
+@media only screen and (max-width: 480px) { 
+    body{ font-size: 13.5px;}
+    section{ padding: 25px 0; }
+
+    .row,
+    .hero-text-box {padding: 0 3%;}
+
+    .col.col { 
+        width: 100%;
+        text-align: center;
+        vertical-align: middle ;
+        margin: 0 0 4% 0;
+    }
+
+    .main-nav{ display: none; }
+
+        
+    h1,
+    h2,
+    h3,
+    h4{
+    
+        font-weight: 200;
+        text-transform: uppercase;
+        margin-top: 5px;
+    }
+
+    h1{
+        margin-bottom: 10px;
+        font-size: 150%;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+        width: 100%;
+
+    }
+
+    h2,
+    h3{
+         
+        margin: 5px auto;
+        font-size: 80%;
+        word-spacing: 3px;
+        letter-spacing: 1px;
+        line-break: normal;
+        width: 70%;
+    }
+
+
+
+    h1,
+    h2,
+    h3,
+    h4{
+        font-weight: bolder;
+        word-spacing: 2.5px;
+    }
+
+    .work-step p{ 
+        padding-top: 5px;
+        text-align: left;
+        margin-bottom: 0px;
+     }
+
+    .work-step div{ 
+        font-size: 80%;
+        padding: 3px;
+        width: 35px;
+        height: 35px;
+        padding-top: 10px;
+        
+     }
+
+     .iphone{height: 350px;}
+
+        
+        
+    blockquote{
+        padding: 2%;
+        height: 230px;
+        width: 60%;
+        margin-top: 20px;
+        margin: auto;
+    }
+    blockquote .para{
+        /* margin-bottom: 10px; */
+        height: auto;
+        display: block;
+        margin-top: 10px;
+        font-size: 85%;
+        padding: 3%;
+
+    
+    }
+        
+    cite:before{
+        content: " ";
+        width: 30%;
+        color: rgb(182, 69, 216);
+        padding: 1px;
+        background-color: #ecf0f1;
+        display: block;
+        margin: 15px auto ;
+        
+        
+    }
+
+    cite{
+        font-size: 85%;
+        font-weight: 125%;
+        margin-top: 10px;
+        display: block;
+    }
+    
+    cite img{
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        vertical-align: middle;
+        display: inline-block;
+        
+    }
+        
+    .plans-box{
+        width: 55%;
+        padding: 7px;
+     
+    }
+    .plans-box div ul li{
+        text-align: start;
+    }
+    .section-form{
+        width: 100%;
+    }
+
+
+    .section-form .span_1_of_3{
+        width: 32.26%;
+        margin: 25px 0 10px 0;
+        /* padding: 5px 0; */
+        font-size: 90%;
+      
+    }
+    .section-form .span_2_of_3{
+        width: 66.13%; 
+        margin: 20px 0 10px 0;
+        padding: 5px;
+      
+    }
+ 
+}
+
+
+    
