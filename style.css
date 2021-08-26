@@ -364,17 +364,7 @@ div.div, div{
     
     
 }
-/*
 
-.logo,
-.logo-black{
-    height: 150px;
-    width: auto;
-    float: left;
-    
-}
-
-*/
 
 .logo{
     height: 150px;
@@ -432,6 +422,23 @@ div.div, div{
 }
 
 
+
+/* MOBILE RESPONSIVE NAVI */
+
+
+.ion-navicon-round{
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i{
+    -ms-flex-negative: 200%;
+    flex-shrink: 200%;
+    color: #fff;
+}
+
 /* STICKY NAVI */
 
 .sticky{
@@ -440,6 +447,7 @@ div.div, div{
     top: 0;
     left: 0;
     background-color: rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0 2px 2px #dbdbdb;
     box-shadow: 0 2px 2px #dbdbdb;
     z-index: 9999;
 }
@@ -973,7 +981,13 @@ footer p{
 .js--wp-5
 {
     opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    
 }
+
+
+.js--wp-6{ -webkit-animation-duration: 1s; animation-duration: 1s; }
 
 .js--wp-1.animated,
 .js--wp-2.animated,
