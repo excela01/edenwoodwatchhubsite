@@ -56,7 +56,7 @@
     }
     
     .section-cities div{
-        font-size: 85%;
+        font-size: 95%;
         font-weight: 120%;
     }
 
@@ -151,19 +151,32 @@
         margin: 0 0 4% 0;
     }
 
-/*    .main-nav{ display: none; }*/
+    .main-nav{ display: none; }
     
     .mobile-nav-icon i { 
         display: inline-block;
+       
     }
     
     .main-nav{
         float: left;
+        margin-top: 5px;
+        margin-left: 25px;
+        
+
     }
     
-    .sticky .mobile-nav-icon i {
-        color: #555;
-    }
+    .sticky .mobile-nav-icon i { color: #555; }
+/*    .sticky .mobile-nav-icon  { margin-top: 10px; }*/
+
+
+    .sticky .main-nav{ margin-top: 5px; }
+
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited{  padding: 8px; }
+
+    
 
 
     
@@ -172,6 +185,8 @@
     .main-nav li a:visited{
         display: block;
         border: 0;
+        padding: 10px;
+        font-size: 70%;
     }
     
     .main-nav li{
@@ -238,8 +253,7 @@
 
      .iphone{height: 550px;}
 
-        
-        
+
     blockquote{
         padding: 2%;
         height: 230px;
@@ -277,7 +291,10 @@
         display: block;
     }
     
-    cite img{
+    cite a:link,
+    cite a:visited { color: #ffffff; }
+
+     cite img{
         width: 50px;
         height: 50px;
         border-radius: 50%;
@@ -285,9 +302,13 @@
         display: inline-block;
         
     }
+    .iphone{
+        height: 80%;
+    }
         
     .plans-box{
-        width: 60%;
+        height: 70%;
+        width: 50%;
         padding: 10px;
      
     }

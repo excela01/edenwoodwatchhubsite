@@ -386,7 +386,7 @@ div.div, div{
 .main-nav{
     float: right;
     list-style: none;
-    margin-top: 60px;
+    margin-top: 10px;
 }
 
 .main-nav li{
@@ -426,7 +426,8 @@ div.div, div{
 /* MOBILE RESPONSIVE NAVI */
 
 
-.ion-navicon-round{
+.ion-navicon-round,
+.ion-close-round{
     float: right;
     margin-top: 30px;
     cursor: pointer;
@@ -434,8 +435,6 @@ div.div, div{
 }
 
 .mobile-nav-icon i{
-    -ms-flex-negative: 200%;
-    flex-shrink: 200%;
     color: #fff;
 }
 
@@ -743,11 +742,15 @@ cite img{
     background-color: rgba(240, 222, 240, 0.93);
     border-bottom: 1px solid #8e8e8e;
 }
-
+ 
 .plans-box div:last-of-type {
     border-bottom: 0;
+    
+/*    border: 1px solid #9b59b6;*/
+/*
     -webkit-box-shadow: -2px -2px 3px inset #2c033b71,2px 2px 3px inset #2c033b71;
     box-shadow: -2px -2px 3px inset #2c033b71,2px 2px 3px inset #2c033b71;
+*/
 
 }
 
