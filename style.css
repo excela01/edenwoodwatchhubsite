@@ -341,8 +341,8 @@ a:active{
 /* -----------------------------------------------*/
 
 header{
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(3, 4, 16, 0.95)), to(rgba(14, 14, 15, 0.83))),url(webDev/Hero.jpeg.png);
-    background-image: linear-gradient(rgba(3, 4, 16, 0.95), rgba(14, 14, 15, 0.83)),url(webDev/Hero.jpeg.png);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(3, 4, 16, 0.95)), to(rgba(14, 14, 15, 0.83))),url(webDev/Hero.jpeg-min.png);
+    background-image: linear-gradient(rgba(3, 4, 16, 0.95), rgba(14, 14, 15, 0.83)),url(webDev/Hero.jpeg-min.png);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -637,9 +637,9 @@ margin-bottom: 50px;
 
 .section-testimonials{
     
-    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.8)),to(rgba(8, 7, 8, 0.69))),  url(webDev/background2.jpg);
+    background-image: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 0, 0.8)),to(rgba(8, 7, 8, 0.69))),  url(webDev/background2-min.jpg);
     
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(8, 7, 8, 0.69)),  url(webDev/background2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(8, 7, 8, 0.69)),  url(webDev/background2-min.jpg);
     background-size: 450px;
     background-attachment: fixed;
     color: #fff;
